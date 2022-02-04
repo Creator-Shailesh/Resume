@@ -1,0 +1,93 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+/* ------------------------------------------Header Section-------------------------------------------------------- */
+
+.img-responsive
+{
+    max-width: 40%;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    background: #f5f0f0;
+}
+
+h1{
+    
+    text-transform: uppercase;
+}
+header .icons i
+{
+    padding:8px;
+    margin: 8px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(17, 1, 17);
+    font-size: 24px;
+   
+}
+header p{
+    font-weight: bold;
+}
+header .icons i:hover{
+    transition: 3s;
+    background-color: purple;
+    color: white;
+}
+@media( max-width:768px) {
+    header .col-md-6{
+        text-align: center;
+    }
+    
+}
+
+
+/* ----------------------------------------------------------END Header Section---------------------------------------- */
+
+.About th {
+    width: 45%;
+    padding: 8px;
+}
+.container
+{
+    border: 3px solid white;
+   
+      box-shadow: 3px 3px 20px rgba(165, 158, 158, 0.911);
+}
+.portfolio img{
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    border-radius: 3px;
+
+}
+
+.contact form input{
+    
+    width: 80%;
+    padding: 6px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    display: inline-block;
+}
+.contact form textarea{
+    width: 80%;
+    padding: 6px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    display: inline-block;
+    height: 130px;
+
+}
+.footer .icons a{
+    color: black;
+    margin-right: 1%;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.footer .icons a:hover{
+    color: dodgerblue;
+    margin-right: 1%;
+    font-size: 23px;
+}
